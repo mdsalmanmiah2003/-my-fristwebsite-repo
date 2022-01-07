@@ -21,7 +21,7 @@ background-image: url(back.jpg);
     padding-left: 5%;
 }
 .c img{
-    width: 225%;
+    width: 25%;
 }
 .link-button{
     text-decoration: none;
@@ -35,9 +35,10 @@ background-image: url(back.jpg);
 #second-section{
     display: flex;
     margin-top: 6%;
-    background-image: url(back.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
+    background-image: url(sky1.jpg.jpg);
+    /* background-position: right;
+    background-repeat: no-repeat;*/
+    background-size: cover;
    
 
 }
@@ -56,4 +57,39 @@ background-image: url(back.jpg);
     border: 1px solid red;
     border-radius: 10px;
     color: goldenrod;
+}
+#third-section{
+
+}
+#g{
+    display: flex;
+    background-color: whitesmoke;
+}
+.h{ 
+   border-radius: 12px;
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 23px;
+ box-shadow: 10px 10px 15px cornflowerblue;
+ border-left: 15px solid;
+ border-image: linear-gradient(blue,cyan); 
+ border-image-slice: 1;
+}
+.i{
+  width: 40%; 
+   border-radius: 12px;
+   margin-left: 5%;
+margin-right: 5%;
+padding-left: 23px; 
+  box-shadow: 10px 10px 15px cornflowerblue;
+   border-left: 15px solid;
+ border-image: linear-gradient(tomato,green); 
+ border-image-slice: 1;
+}
+footer p{
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
 }
